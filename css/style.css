@@ -2876,7 +2876,7 @@ video.bgvid {
 
 .line-active span {
   position: absolute;
-  right: -6px;
+  right: -8px;
   top: -12px;
   padding: 7px 16px;
   background: #241f2a;
