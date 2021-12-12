@@ -289,7 +289,7 @@ body {
 }
 
 p {
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 
 .sr-only {
@@ -459,7 +459,7 @@ h3 {
   color: #17151d;
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.3;
   text-align: center;
   margin-bottom: 23px;
@@ -775,7 +775,7 @@ h3 {
   font-size: 1.4rem;
   line-height: 22px;
   color: #2c2c2c;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
   float: left;
 }
 @media screen and (max-width: 992px) {
@@ -1808,7 +1808,7 @@ img.mfp-img {
   background: #fff;
   padding-top: 30px;
   transition: background 0.3s linear;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 .header > .container {
   position: relative;
