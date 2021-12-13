@@ -289,7 +289,7 @@ body {
 }
 
 p {
-  letter-spacing: 0.6px;
+  letter-spacing: 0.031em;
 }
 
 .sr-only {
@@ -775,7 +775,7 @@ h3 {
   font-size: 1.4rem;
   line-height: 22px;
   color: #2c2c2c;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.031em;
   float: left;
 }
 @media screen and (max-width: 992px) {
@@ -1808,7 +1808,7 @@ img.mfp-img {
   background: #fff;
   padding-top: 30px;
   transition: background 0.3s linear;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.031em;
 }
 .header > .container {
   position: relative;
@@ -1835,7 +1835,7 @@ img.mfp-img {
   list-style: none;
   float: left;
   margin: 0 4px;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.031em;
 }
 @media screen and (max-width: 1200px) {
   .nav li {
@@ -2359,15 +2359,15 @@ video.bgvid {
 }
 
 .about-us p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #888994;
   line-height: 1.7;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about-us span {
-  font-size: 1.3rem;
-  color: #37303f;
+  font-size: 1.4rem;
+  color: #888994;
   line-height: 1.7;
   margin-bottom: 35px;
 }
@@ -2464,7 +2464,7 @@ video.bgvid {
 }
 
 .read {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 26px;
   text-align: left;
   color: #37303f;
@@ -2472,7 +2472,7 @@ video.bgvid {
 }
 
 .use {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.8;
@@ -2697,7 +2697,7 @@ video.bgvid {
 }
 
 .d101-service h5 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-top: 30px;
   text-transform: uppercase;
   text-align: center;
