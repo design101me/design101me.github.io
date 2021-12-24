@@ -621,8 +621,9 @@
             <form
               class="s-form"
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQ6j0BmgJIoaMt198t-4O3iZV3YIFZqAHMXmRafVjWTgR3NQ/formResponse"
-              target="”hidden_iframe”"
+              target="hidden_iframe"
               onsubmit="submitted=true;"
+              method="post"
             >
               <input
                 class="input-style"
@@ -653,6 +654,12 @@
               ></textarea>
               <input class="send" type="submit" value="&#36865;&#20449;" />
             </form>
+            <iframe
+              name="hidden_iframe"
+              id="hidden_iframe"
+              style="display: none"
+              onload="if(submitted)  {window.location='#';}"
+            ></iframe>
           </div>
         </div>
       </div>
@@ -708,11 +715,5 @@
     <script type="text/javascript">
       var submitted = false;
     </script>
-    <iframe
-      name="hidden_iframe"
-      id="hidden_iframe"
-      style="display: none"
-      onload="if(submitted) {window.location='index.html';}"
-    ></iframe>
   </body>
 </html>
