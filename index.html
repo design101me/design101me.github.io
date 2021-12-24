@@ -621,6 +621,8 @@
             <form
               class="s-form"
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQ6j0BmgJIoaMt198t-4O3iZV3YIFZqAHMXmRafVjWTgR3NQ/formResponse"
+              target="”hidden_iframe”"
+              onsubmit="submitted=true;"
             >
               <input
                 class="input-style"
@@ -703,5 +705,14 @@
     <script type="text/javascript" src="js/magnific.js"></script>
     <script type="text/javascript" src="js/jquery.countTo.js"></script>
     <script type="text/javascript" src="js/global.js"></script>
+    <script type="text/javascript">
+      var submitted = false;
+    </script>
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="if(submitted) {window.location='design101.me';}"
+    ></iframe>
   </body>
 </html>
